@@ -1,0 +1,415 @@
+{
+	"parameter": 
+		{
+			"jobName": "default",
+			"callerJobName": null,
+			"refListner": {
+				"weightType": "ref_listener",
+				"minLimit": 1,
+				"maxLimit": 12,
+				"weightInfo": [
+					{
+						"id": 1,
+						"min": 1,
+						"max": 1,
+						"weight": 1
+					},
+					{
+						"id": 2,
+						"min": 2,
+						"max": 2,
+						"weight": 2
+					},
+					{
+						"id": 3,
+						"min": 3,
+						"max": 5,
+						"weight": 5
+					},
+					{
+						"id": 4,
+						"min": 6,
+						"max": 8,
+						"weight": 13
+					},
+					{
+						"id": 5,
+						"min": 8,
+						"max": 12,
+						"weight": 21
+					}
+				]
+			},
+			"refMethod": {
+				"weightType": "ref_method",
+				"weightInfo": [
+					{
+						"id": 1,
+						"type": "GET",
+						"weight": 1
+					},
+					{
+						"id": 2,
+						"type": "POST",
+						"weight": 1
+					},
+					{
+						"id": 3,
+						"type": "PUT",
+						"weight": 1
+					},
+					{
+						"id": 4,
+						"type": "PATCH",
+						"weight": 1
+					},
+					{
+						"id": 5,
+						"type": "DELETE",
+						"weight": 1
+					}
+				]
+			},
+			"refNode": {
+				"weightType": "ref_node",
+				"minLimit": 1,
+				"maxLimit": 40,
+				"weightInfo": [
+					{
+						"id": 1,
+						"min": 1,
+						"max": 5,
+						"weight": 1
+					},
+					{
+						"id": 2,
+						"min": 6,
+						"max": 10,
+						"weight": 2
+					},
+					{
+						"id": 3,
+						"min": 11,
+						"max": 15,
+						"weight": 5
+					},
+					{
+						"id": 4,
+						"min": 15,
+						"max": 20,
+						"weight": 13
+					},
+					{
+						"id": 5,
+						"min": 21,
+						"max": 40,
+						"weight": 21
+					}
+				]
+			},
+			"refConnector": {
+				"weightType": "ref_connector",
+				"minLimit": 1,
+				"maxLimit": 12,
+				"weightInfo": [
+					{
+						"id": 1,
+						"min": 1,
+						"max": 1,
+						"weight": 1
+					},
+					{
+						"id": 2,
+						"min": 2,
+						"max": 2,
+						"weight": 2
+					},
+					{
+						"id": 3,
+						"min": 3,
+						"max": 5,
+						"weight": 5
+					},
+					{
+						"id": 4,
+						"min": 6,
+						"max": 8,
+						"weight": 13
+					},
+					{
+						"id": 5,
+						"min": 8,
+						"max": 12,
+						"weight": 21
+					}
+				]
+			},
+			"refNodeProto": {
+				"weightType": "ref_node_proto",
+				"minLimit": 1,
+				"maxLimit": 12,
+				"weightInfo": [
+					{
+						"id": 1,
+						"min": 1,
+						"max": 1,
+						"weight": 1
+					},
+					{
+						"id": 2,
+						"min": 2,
+						"max": 2,
+						"weight": 2
+					},
+					{
+						"id": 3,
+						"min": 3,
+						"max": 5,
+						"weight": 5
+					},
+					{
+						"id": 4,
+						"min": 6,
+						"max": 8,
+						"weight": 13
+					},
+					{
+						"id": 5,
+						"min": 8,
+						"max": 12,
+						"weight": 21
+					}
+				]
+			},
+			"refTransformNode": {
+				"weightType": "ref_transform_node",
+				"minLimit": 1,
+				"maxLimit": 12,
+				"weightInfo": [
+					{
+						"id": 1,
+						"min": 1,
+						"max": 1,
+						"weight": 1
+					},
+					{
+						"id": 2,
+						"min": 2,
+						"max": 2,
+						"weight": 2
+					},
+					{
+						"id": 3,
+						"min": 3,
+						"max": 5,
+						"weight": 5
+					},
+					{
+						"id": 4,
+						"min": 6,
+						"max": 8,
+						"weight": 13
+					},
+					{
+						"id": 5,
+						"min": 8,
+						"max": 12,
+						"weight": 21
+					}
+				]
+			},
+			"refTransformLoc": {
+				"weightType": "ref_transform_loc",
+				"minLimit": 1,
+				"maxLimit": 3000,
+				"weightInfo": [
+					{
+						"id": 1,
+						"min": 1,
+						"max": 20,
+						"weight": 5
+					},
+					{
+						"id": 2,
+						"min": 21,
+						"max": 50,
+						"weight": 13
+					},
+					{
+						"id": 3,
+						"min": 51,
+						"max": 100,
+						"weight": 34
+					},
+					{
+						"id": 4,
+						"min": 100,
+						"max": 400,
+						"weight": 55
+					},
+					{
+						"id": 5,
+						"min": 401,
+						"max": 3000,
+						"weight": 75
+					}
+				]
+			},
+			"refTransformLoop": {
+				"weightType": "ref_transform_loop",
+				"minLimit": 1,
+				"maxLimit": 25,
+				"weightInfo": [
+					{
+						"id": 1,
+						"min": 1,
+						"max": 1,
+						"weight": 1
+					},
+					{
+						"id": 2,
+						"min": 2,
+						"max": 3,
+						"weight": 5
+					},
+					{
+						"id": 3,
+						"min": 4,
+						"max": 8,
+						"weight": 9
+					},
+					{
+						"id": 4,
+						"min": 9,
+						"max": 15,
+						"weight": 15
+					},
+					{
+						"id": 5,
+						"min": 16,
+						"max": 25,
+						"weight": 25
+					}
+				]
+			},
+			"refRoutePath": {
+				"weightType": "ref_route_path",
+				"minLimit": 1,
+				"maxLimit": 25,
+				"weightInfo": [
+					{
+						"id": 1,
+						"min": 1,
+						"max": 1,
+						"weight": 1
+					},
+					{
+						"id": 2,
+						"min": 2,
+						"max": 3,
+						"weight": 5
+					},
+					{
+						"id": 3,
+						"min": 4,
+						"max": 8,
+						"weight": 9
+					},
+					{
+						"id": 4,
+						"min": 9,
+						"max": 15,
+						"weight": 15
+					},
+					{
+						"id": 5,
+						"min": 16,
+						"max": 25,
+						"weight": 25
+					}
+				]
+			},
+			"refSchema": {
+				"weightType": "ref_schema",
+				"minLimit": 1,
+				"maxLimit": 25,
+				"weightInfo": [
+					{
+						"id": 1,
+						"min": 1,
+						"max": 1,
+						"weight": 1
+					},
+					{
+						"id": 2,
+						"min": 2,
+						"max": 3,
+						"weight": 5
+					},
+					{
+						"id": 3,
+						"min": 4,
+						"max": 8,
+						"weight": 9
+					},
+					{
+						"id": 4,
+						"min": 9,
+						"max": 15,
+						"weight": 15
+					},
+					{
+						"id": 5,
+						"min": 16,
+						"max": 25,
+						"weight": 25
+					}
+				]
+			},
+			"refEstmitationEffort": [
+				{
+					"id": 1,
+					"scoreMin": 1,
+					"scoreMax": 22,
+					"complexityLevel": "Simple",
+					"estimatedHours": 45
+				},
+				{
+					"id": 2,
+					"scoreMin": 23,
+					"scoreMax": 54,
+					"complexityLevel": "Medium",
+					"estimatedHours": 90
+				},
+				{
+					"id": 3,
+					"scoreMin": 55,
+					"scoreMax": 80,
+					"complexityLevel": "Complex",
+					"estimatedHours": 135
+				},
+				{
+					"id": 4,
+					"scoreMin": 81,
+					"scoreMax": 110,
+					"complexityLevel": "Very complex",
+					"estimatedHours": 225
+				},
+				{
+					"id": 5,
+					"scoreMin": 111,
+					"scoreMax": 180,
+					"complexityLevel": "Ultra complex",
+					"estimatedHours": 280
+				},
+				{
+					"id": 6,
+					"scoreMin": 181,
+					"scoreMax": 250,
+					"complexityLevel": "Above complex",
+					"estimatedHours": 350
+				}
+			]
+		}
+	
+}

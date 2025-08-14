@@ -1,0 +1,223 @@
+.wsdl_warning-box {
+  background-color: #fdfdfd;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  margin-top: 20px;
+  width: 495px;
+  /* max-height: 450px; */
+  display: flex;
+  justify-content: center;
+  overflow-y: auto;
+  /* zoom: 0.78; */
+}
+
+.wsdl_warning-box ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.wsdl_warning-box li {
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  font-family: "Nunito", sans-serif;
+  background-color: #ffffff;
+  padding: 12px 15px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.wsdl_warning-box li::before {
+  content: "•";
+  color: #e54c4c;
+  font-size: 20px;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+/* CHECKBOX STYLING */
+.wsdl_checkbox-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wsdl_checkbox-container label {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+/* Styling for the label */
+.wsdl_checkbox-container p {
+  font-size: 18px;
+  color: #333;
+  font-family: "Nunito", sans-serif;
+  cursor: pointer;
+  transition: color 0.3s;
+  border: white;
+  margin-bottom: 0;
+}
+
+.wsdl_checkbox-container p:hover {
+  color: #007bff;
+  border: 0px white !important;
+}
+
+.wsdl_checkbox-container input {
+  position: relative;
+  margin-right: 10px;
+  /* margin-left: 22px; */
+  width: 25px;
+  height: 25px;
+  -webkit-appearance: none;
+  appearance: none;
+  border: 2px solid #4caf50;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.wsdl_checkbox-container input:checked {
+  background-color: #4caf50;
+}
+
+.wsdl_checkbox-container input:hover:not(:checked) {
+  background-color: #e7e7e7;
+}
+
+.wsdl_checkbox-container input:checked:hover {
+  background-color: #45a049;
+}
+
+/* Custom checkmark */
+.wsdl_checkbox-container input::before {
+  content: "\2713";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.wsdl_checkbox-container input:checked::before {
+  opacity: 1;
+}
+
+.wsdl_ok-button-final {
+  width: 30%;
+  padding: 12px 5px;
+  background-color: #4266be;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: large;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Balthazar", serif;
+  font-family: "Nunito", sans-serif;
+}
+
+.wsdl_ok-button-final:hover {
+  background-color: #210697;
+}
+
+.wsdl_ok-button-final:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.wsdl_ok-button-final:hover:not(:disabled) {
+  background-color: #210697;
+}
+
+/* FORM CSS  */
+.wsdl_form-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 490px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fdfdfd75;
+}
+
+.wsdl_form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.wsdl_form-container p {
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 1px;
+  text-align: left;
+  margin-top: 9px;
+  margin-left: 2px;
+  font-family: "Nunito", sans-serif;
+  transition: color 0.3s ease;
+  border: 0px solid transparent !important;
+}
+
+.wsdl_form-container input {
+  margin-top: 0;
+  padding: 8px;
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  font-size: 14px;
+  font-family: "Nunito", sans-serif;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.wsdl_form-container input:focus {
+  border-color: #4caf50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+.wsdl_import-button {
+  align-self: center;
+  width: 50%;
+  padding: 12px 5px;
+  background-color: #4266be;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: large;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Nunito", sans-serif;
+  margin-top: 10px;
+}
+
+.wsdl_import-button:hover {
+  background-color: #210697;
+  transform: translateY(-2px);
+}
+
+.import-modal-message {
+  margin-bottom: 0;
+}

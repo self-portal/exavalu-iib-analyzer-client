@@ -1,0 +1,300 @@
+.open-project {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+@media only screen and (max-width: 620px) {
+  /* Specific to this particular image */
+  img.bg {
+    width: 90vw;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    left: 50%;
+    margin-left: -512px; /* 50% */
+  }
+}
+
+@media only screen and (max-height: 670px) {
+  /* Specific to this particular image */
+  img.bg {
+    height: 650px;
+  }
+}
+
+.open-project .overlap-wrapper {
+  background-color: #ffffff;
+  border: 1px none;
+  height: 1080px;
+  overflow: hidden;
+  transition: all 0.2s ease;
+  width: 1920px;
+}
+
+.open-project .overlap {
+  height: 1026px;
+  left: 10px;
+  position: relative;
+  top: 100px;
+}
+
+.open-project .img {
+  height: 1026px;
+  left: 28px;
+  position: absolute;
+  top: 0;
+  width: 1849px;
+}
+
+.open-project .exavalulogo-big {
+  height: 90px;
+  left: 47px;
+  /* mix-blend-mode: hard-light; */
+  object-fit: cover;
+  position: absolute;
+  top: 53px;
+  width: 273px;
+}
+
+.open-project .p {
+  color: #000000;
+  font-family: "Chakra Petch", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 4px;
+  letter-spacing: 1.44px;
+  line-height: 27.2px;
+  position: absolute;
+  text-align: center;
+  top: 976px;
+  width: 413px;
+}
+
+.open-project .frame {
+  height: 398px;
+  left: 0;
+  position: absolute;
+  top: 263px;
+  width: 1920px;
+}
+
+.h-1 {
+  color: #00000040;
+  font-family: "Chivo", Helvetica;
+  font-size: 96px;
+  font-weight: 300;
+  left: 0;
+  letter-spacing: 3.36px;
+  line-height: 163.2px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+  top: -80px;
+  white-space: nowrap;
+  width: 1920px;
+}
+
+.on-hover-instance-node {
+  transition: all 0.2s ease !important;
+  width: 0px !important;
+}
+
+.Submit-button-instance {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.cancel-button-instance {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.cancel-button {
+  position: absolute;
+  top: 330px;
+  left: 400px;
+  color: #ffffff;
+  width: 80px;
+  height: 35px;
+}
+
+/* media queries down here */
+
+@media screen and (max-width: 1280px) {
+  .border-box-selectname {
+    background-color: #ffffff;
+    width: 660px;
+    height: 56%;
+    position: absolute;
+    left: 30%;
+    top: 22%;
+    border-radius:29px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+      rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+
+  .submit-button {
+    position: absolute;
+    top: 65%;
+    left: 75%;
+    color: #ffffff;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1400px) {
+  .border-box-selectname {
+    background-color: #ffffff;
+    width: 660px;
+    height: 56%;
+    position: absolute;
+    left: 30%;
+    top: 22%;
+    border-radius: 29px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+      rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+
+  .submit-button {
+    position: absolute;
+    top: 65%;
+    left: 75%;
+    color: #ffffff;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1500px) {
+  .border-box-selectname {
+    background-color: #ffffff;
+    width: 660px;
+    height: 56%;
+    position: absolute;
+    left: 30%;
+    top: 22%;
+    border-radius: 29px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+      rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+
+  .submit-button {
+    position: absolute;
+    top: 65%;
+    left: 75%;
+    color: #ffffff;
+  }
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1700px) {
+  .border-box-selectname {
+    background-color: #ffffff;
+    width: 660px;
+    height: 56%;
+    position: absolute;
+    left: 30%;
+    top: 22%;
+    border-radius: 29px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+      rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+
+  .submit-button {
+    position: absolute;
+    top: 65%;
+    left: 75%;
+    color: #ffffff;
+  }
+}
+
+@media screen and (min-width: 1700px) and (max-width: 1820px) {
+  .border-box-selectname {
+    background-color: #ffffff;
+    width: 660px;
+    height: 56%;
+    position: absolute;
+    left: 30%;
+    top: 22%;
+    border-radius: 29px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+      rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+
+  .submit-button {
+    position: absolute;
+    top: 65%;
+    left: 75%;
+    color: #ffffff;
+  }
+}
+
+@media screen and (min-width: 1820px) and (max-width: 1920px) {
+  .border-box-selectname {
+    background-color: #ffffff;
+    width: 660px;
+    height: 56%;
+    position: absolute;
+    left: 30%;
+    top: 22%;
+    border-radius: 29px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+      rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+
+  .submit-button {
+    position: absolute;
+    top: 65%;
+    left: 75%;
+    color: #ffffff;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .border-box-selectname {
+    background-color: #ffffff;
+    width: 660px;
+    height: 56%;
+    position: absolute;
+    left: 30%;
+    top: 22%;
+    border-radius: 29px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+      rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+
+  .submit-button {
+    position: absolute;
+    top: 65%;
+    left: 75%;
+    color: #ffffff;
+  }
+}
+
+.heading-job {
+  font-size: 30px !important;
+  left: 212px !important;
+  position: relative !important;
+  top: 20px !important;
+  font-weight: bold;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.dropdown-job {
+  font-size: 20px;
+  font-weight: 300;
+  left: 80px !important;
+  position: absolute !important;
+  top: 110px !important;
+  transition: all 0.2s ease !important;
+  width: 500px !important;
+  height: 56px !important;
+  /* border-radius: 15px; */
+  cursor: pointer;
+  /* border: 2px solid; */
+}
+
+.job-name-select {
+  position: absolute;
+  top: 230px;
+  left: 80px;
+  font-size: 22px;
+}

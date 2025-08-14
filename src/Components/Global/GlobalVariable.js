@@ -1,0 +1,2 @@
+global.queryName = "";
+global.jobName = "";

@@ -1,0 +1,169 @@
+.wsdl_api-details-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  /* overflow: hidden; */
+  animation: fadeIn 0.3s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.wsdl_api-details-modal {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 1000px;
+  width: 100%;
+  position: relative;
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: slideIn 0.3s forwards ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.wsdl_api-details-modal-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wsdl_api-details-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bolder;
+  color: #555;
+  transition: color 0.3s;
+}
+
+.wsdl_api-details-close:hover {
+  color: #333;
+}
+
+.wsdl_api-details-modal-body {
+  padding: 20px;
+  text-align: center;
+  width: 95%;
+}
+
+.wsdl_api-details-modal-message {
+  margin-bottom: 15px;
+  font-size: large;
+}
+
+/* Modal Table */
+.wsdl_modal-table {
+  width: 100%;
+  margin: 0 5px;
+}
+
+.wsdl_api-details-add-remove-method-rows {
+  display: flex;
+  justify-content: space-around;
+  /* margin-right: 2px; */
+}
+
+.wsdl_modal-table td {
+  padding: 12px;
+  border: none;
+}
+
+.wsdl_modal-table {
+  border-collapse: separate; /* or remove this property if present */
+  border-spacing: 5px;
+}
+
+.wsdl_modal-table td:last-child {
+  padding-right: 0px;
+  /* border: none; */
+  border-bottom: none;
+}
+
+.wsdl_modal-table input[type="text"] {
+  width: calc(100% - 15px);
+  /* max-width: 200px;  */
+  margin: 0 auto;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.wsdl_modal-table select {
+  width: 100%;
+}
+
+.wsdl_modal-table select option {
+  font-size: 18px;
+}
+
+.wsdl_modal-body-attribute {
+  background-color: rgba(238, 5, 5, 0.093);
+  background-color: #dae0eb8c;
+}
+
+.wsdl_plus-minus-column {
+  border-right: 0;
+}
+
+.wsdl_remove-button-cell {
+  position: relative;
+  /* background-color: white; */
+}
+
+.wsdl_remove-button-modal {
+  position: absolute;
+  top: 5px;
+  right: 21px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: x-large;
+  color: #cb0b0b;
+  margin-left: 25px;
+}
+
+.wsdl_add-button {
+  padding: 10px 10px;
+  font-size: 0.75rem;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Balthazar", serif;
+  font-family: "Nunito", sans-serif;
+}
+
+.wsdl_modal-body-attribute td:last-child {
+  background-color: white;
+}
+
+.wsdl_remove-button-cell {
+  background-color: white;
+}

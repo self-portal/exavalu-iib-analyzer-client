@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+/* h2 {
+  font-size: 1rem;
+  color: #2c3e50;
+  font-weight: 600;
+} */
+
+.font-weight-bold {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.8rem;
+  /* line-height: 1.5; */
+  letter-spacing: 0.5px;
+  color: #333;
+}
+
+h5 {
+  font-size: 1.25rem;
+  color: #34495e;
+}
+
+#addsubjob-border-box {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.15);
+}
+
+.select-button {
+  background-color: #2980b9;
+  color: #fff;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.select-button:disabled {
+  background-color: #bdc3c7;
+}
+
+.select-button:not(:disabled):hover {
+  background-color: #3498db;
+}
+
+.selected-job-card {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 0.5rem;
+  max-width: 500px;
+  text-align: center;
+}
+
+.selected-job-name {
+  font-family: "Domine", monospace;
+  color: #007bff;
+}

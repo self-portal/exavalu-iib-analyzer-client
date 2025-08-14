@@ -1,0 +1,97 @@
+/* General styles */
+.openjob-container-fluid {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+/* Header styling */
+#scanjob-name-header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.job-name-title {
+  font-weight: bold;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Card styling */
+.openproject-box-table {
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 10px;
+}
+
+.openJob-heading-subjob-upload {
+  margin-bottom: 15px;
+}
+
+/* Add button styling */
+.add-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.add-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Close icon styling */
+.close-icon {
+  color: #dc3545;
+}
+
+.close-icon:hover {
+  color: #c82333;
+}
+
+/* File status styling */
+.valid-file {
+  color: green;
+  font-weight: bold;
+}
+
+.invalid-file {
+  color: red;
+  font-weight: bold;
+}
+
+/* Button group styling */
+.button-group {
+  margin-top: 20px;
+}
+
+.button-stack .MuiButton-root {
+  background-color: #28a745;
+  color: white;
+  text-transform: none;
+}
+
+.button-stack .MuiButton-root:hover {
+  background-color: #218838;
+}
+
+/* No subjob message styling */
+.no-subjob-message {
+  text-align: center;
+  color: #6c757d;
+  font-style: italic;
+}
+
+/* Specific button styling */
+.edit-btn {
+  background-color: #007bff;
+}
+
+.submit-btn {
+  background-color: #28a745;
+}
+
+.add-subjob-btn {
+  background-color: #ffc107;
+}
+
+.back-btn {
+  background-color: #dc3545;
+}

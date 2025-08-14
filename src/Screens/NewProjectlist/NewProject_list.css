@@ -1,0 +1,122 @@
+.project-name{
+  color: #000000;
+  font-family: "Chivo", Helvetica;
+  font-size: 61px;
+  font-weight: 400;
+  letter-spacing: 5.76px;
+  line-height: 108.8px;
+  position: absolute;
+  text-align: center;
+  top: -128px;
+  width: 965px;
+  text-shadow: 0px 4px 4px #00000040;
+}
+
+.text-overlay-select-list {
+  color: #000000;
+  font-family: "Chivo", Helvetica;
+  font-size: 55px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 5.76px;
+  line-height: 85.8px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+  top: -38px;
+  white-space: nowrap;
+  width: 944px;
+}
+
+.overlay-select-list {
+  height: 274px;
+  left: 582px;
+  position: absolute;
+  top: 220px;
+  width: 946px;
+}
+
+.list-card-preview {
+  background-color: #5e323228;
+  border: 3px dashed;
+  padding: 15em;
+  top: 50px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.list-card-sub-preview{
+  background-color: #ffffff;
+  border: 2px dashed;
+  padding: 2em;
+  top: 80px;
+  left: 30px;
+  right: 30px;
+  position: absolute;
+  border-radius: 10px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.select-source-file {
+  color: white;
+  text-transform: uppercase;
+  height: 60px;
+  width: 250px;
+  background-color: #c0392b;
+  position: absolute;
+  margin: auto;
+  top: 580px;
+  bottom: 0;
+  left: -460px;
+  right: 0;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 60px;
+}
+
+label:active {
+  transform: scale(0.9);
+}
+
+.button-next {
+  color: white;
+  text-transform: uppercase;
+  height: 60px;
+  width: 250px;
+  background-color: #c0392b;
+  position: absolute;
+  margin: auto;
+  top: 580px;
+  bottom: 0;
+  left: 465px;
+  right: 0;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.button-next:active {
+  transform: scale(0.9);
+}
+
+.action-style{
+  left: 250px;
+  position: sticky;
+}
+
+.action-style-scanned{
+  background-color: green;
+  left: 736px;
+  position: sticky;
+}

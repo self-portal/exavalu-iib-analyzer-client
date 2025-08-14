@@ -1,0 +1,25 @@
+.container-fluid {
+  height: auto;
+  width: auto;
+}
+#homepage-heading {
+  margin-top: auto;
+  padding-top: 110px;
+  padding-bottom: 25px;
+  justify-content: center;
+  color: #2a2525;
+  font-family: "Chivo", Helvetica;
+  font-size: 96px;
+  letter-spacing: 3.64px;
+  text-shadow: 0px 4px 4px #00000040;
+}
+#homepage-subheading {
+  padding-top: 10px;
+  padding-bottom: 25px;
+  justify-content: center;
+  color: #2a2525;
+  font-family: "Chivo", Helvetica;
+  font-size: 96px;
+  letter-spacing: 3.64px;
+  text-shadow: 0px 4px 4px #00000040;
+}

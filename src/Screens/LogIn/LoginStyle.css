@@ -1,0 +1,569 @@
+login .LogIn {
+  background-color: white;
+}
+
+.LogIn .HiUserCircle-lock {
+  size: 90px;
+  position: relative;
+  left: 0px;
+  top: -125px;
+}
+
+.LogIn .overlap-wrapper {
+  border: 1px none;
+  height: 700px;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+
+.LogIn .exavalulogo-big {
+  height: 90px;
+  left: 47px;
+  object-fit: cover;
+  position: absolute;
+  top: 53px;
+  width: 273px;
+}
+
+.LogIn .p {
+  color: #000000;
+  font-family: "Chakra Petch", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 4px;
+  letter-spacing: 1.44px;
+  line-height: 27.2px;
+  position: absolute;
+  text-align: center;
+  top: 976px;
+  width: 413px;
+}
+
+.heading {
+  font-size: 20px;
+  padding: 10px;
+}
+input {
+  margin: 0.5rem 0;
+  padding: 10px;
+  border: color-mix(in hsl shorter hue, color percentage, color percentage);
+  border-radius: 10px;
+}
+
+.Email-container {
+  padding: 30px;
+  position: relative;
+  top: 10px;
+}
+
+button:hover {
+  font-size: large;
+}
+.LogIn-header {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+}
+
+.log-in-button-instance {
+  text-decoration: none;
+  background-color: #cf2e2e;
+  height: 54px;
+  width: 350px;
+  left: -5px !important;
+  position: absolute !important;
+  top: 09px !important;
+  color: #ffffff;
+  font-size: 26px;
+  text-align: center;
+  padding: 7px;
+  border-radius: 18px;
+  cursor: pointer;
+}
+
+.login-instance {
+  left: 21px !important;
+  position: absolute !important;
+  top: 309px !important;
+  padding: 10px;
+}
+.login-button:hover {
+  color: #cf2e2e;
+}
+
+.forgotAccount-instance:hover {
+  color: #cf2e2e;
+}
+.createAccount-instance {
+  top: 450px !important;
+}
+
+.login-button {
+  background: none;
+  color: #000000;
+
+  position: relative;
+  padding: 5px;
+  top: 0px;
+}
+
+.label-remember-me {
+  background-color: white;
+  color: #000000;
+  position: absolute;
+  left: 36px;
+  top: 260px;
+  text-decoration: none;
+  width: 200px;
+}
+
+.remember-me {
+  position: absolute;
+  left: 18px;
+  top: 2px;
+}
+
+/* .LogIn-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  position: relative;
+  left: 0;
+  width: 400px;
+  height: 400px;
+  align-items: center;
+  padding: 30px;
+  margin: 20px;
+  border: black 3px solid;
+  border-radius: 18px;
+}
+
+.auth-form-container-login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(30%);
+  position: relative;
+}
+
+.login-button2 {
+  top: -8px;
+  border-radius: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: #cf2e2e !important;
+}
+
+.email-instance {
+  top: -100px;
+  width: 310px;
+  left: 10px;
+}
+.password-instance {
+  top: -90px;
+  width: 310px;
+  left: 10px;
+}
+
+.forgotAccount-instance {
+  text-decoration: none;
+  color: black;
+  left: 135px !important;
+  position: absolute !important;
+  top: 264px !important;
+} */
+
+/* Media Query starts here */
+/* till 1280px */
+
+@media screen and (max-width: 1280px) {
+  .LogIn .nimbus-mail {
+    left: 20px;
+    top: 86px;
+  }
+
+  .LogIn .octicon-lock {
+    left: 20px;
+    position: absolute;
+    top: 155px;
+  }
+
+  .LogIn-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    position: relative;
+    left: 0;
+    width: 400px;
+    height: 330px;
+    align-items: center;
+    padding: 30px;
+    margin: 20px;
+    border: black 3px solid;
+    border-radius: 18px;
+  }
+
+  .auth-form-container-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(32%);
+    position: relative;
+  }
+
+  .login-button2 {
+    top: -80px;
+    border-radius: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #cf2e2e !important;
+  }
+
+  .email-instance {
+    top: -145px;
+    width: 310px;
+    left: 10px;
+  }
+  .password-instance {
+    top: -130px;
+    width: 310px;
+    left: 10px;
+  }
+
+  .forgotAccount-instance {
+    text-decoration: none;
+    color: black;
+    left: 135px !important;
+    position: absolute !important;
+    top: 210px !important;
+  }
+}
+
+/* from 1280px width to 1400px and then things starts to change!! */
+@media screen and (min-width: 1280px) and (max-width: 1400px){
+  .LogIn .nimbus-mail {
+    left: 20px;
+    top: 86px;
+  }
+
+  .LogIn .octicon-lock {
+    left: 20px;
+    position: absolute;
+    top: 155px;
+  }
+
+  .LogIn-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    position: relative;
+    left: 0;
+    width: 400px;
+    height: 330px;
+    align-items: center;
+    padding: 30px;
+    margin: 20px;
+    border: black 3px solid;
+    border-radius: 18px;
+  }
+
+  .auth-form-container-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(32%);
+    position: relative;
+  }
+
+  .login-button2 {
+    top: -80px;
+    border-radius: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #cf2e2e !important;
+  }
+
+  .email-instance {
+    top: -145px;
+    width: 310px;
+    left: 10px;
+  }
+  .password-instance {
+    top: -130px;
+    width: 310px;
+    left: 10px;
+  }
+
+  .forgotAccount-instance {
+    text-decoration: none;
+    color: black;
+    left: 135px !important;
+    position: absolute !important;
+    top: 210px !important;
+  }
+}
+
+/* from 1400px width to 1700px and then things starts to change!! */
+@media screen and (min-width: 1400px) and (max-width: 1700px){
+  .LogIn .nimbus-mail {
+    left: 20px;
+    top: 86px;
+  }
+
+  .LogIn .octicon-lock {
+    left: 20px;
+    position: absolute;
+    top: 155px;
+  }
+
+  .LogIn-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    position: relative;
+    left: 0;
+    width: 400px;
+    height: 330px;
+    align-items: center;
+    padding: 30px;
+    margin: 20px;
+    border: black 3px solid;
+    border-radius: 18px;
+  }
+
+  .auth-form-container-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(45%);
+    position: relative;
+  }
+
+  .login-button2 {
+    top: -80px;
+    border-radius: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #cf2e2e !important;
+  }
+
+  .email-instance {
+    top: -145px;
+    width: 310px;
+    left: 10px;
+  }
+  .password-instance {
+    top: -130px;
+    width: 310px;
+    left: 10px;
+  }
+
+  .forgotAccount-instance {
+    text-decoration: none;
+    color: black;
+    left: 135px !important;
+    position: absolute !important;
+    top: 210px !important;
+  }
+}
+
+/* from 1700px width to 1820px and then things starts to change!! */
+@media screen and (min-width: 1700px) and (max-width: 1820px){
+  .LogIn .nimbus-mail {
+    left: 20px;
+    top: 86px;
+  }
+
+  .LogIn .octicon-lock {
+    left: 20px;
+    position: absolute;
+    top: 155px;
+  }
+
+  .LogIn-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    position: relative;
+    left: 0;
+    width: 400px;
+    height: 330px;
+    align-items: center;
+    padding: 30px;
+    margin: 20px;
+    border: black 3px solid;
+    border-radius: 18px;
+  }
+
+  .auth-form-container-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(45%);
+    position: relative;
+  }
+
+  .login-button2 {
+    top: -80px;
+    border-radius: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #cf2e2e !important;
+  }
+
+  .email-instance {
+    top: -145px;
+    width: 310px;
+    left: 10px;
+  }
+  .password-instance {
+    top: -130px;
+    width: 310px;
+    left: 10px;
+  }
+
+  .forgotAccount-instance {
+    text-decoration: none;
+    color: black;
+    left: 135px !important;
+    position: absolute !important;
+    top: 210px !important;
+  }
+}
+
+/* from 1700px width to 1920px and then things starts to change!! */
+@media screen and (min-width: 1820px) and (max-width: 1920px){
+  .LogIn .nimbus-mail {
+    left: 20px;
+    top: 86px;
+  }
+
+  .LogIn .octicon-lock {
+    left: 20px;
+    position: absolute;
+    top: 155px;
+  }
+
+  .LogIn-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    position: relative;
+    left: 0;
+    width: 400px;
+    height: 330px;
+    align-items: center;
+    padding: 30px;
+    margin: 20px;
+    border: black 3px solid;
+    border-radius: 18px;
+  }
+
+  .auth-form-container-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(60%);
+    position: relative;
+  }
+
+  .login-button2 {
+    top: -80px;
+    border-radius: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #cf2e2e !important;
+  }
+
+  .email-instance {
+    top: -145px;
+    width: 310px;
+    left: 10px;
+  }
+  .password-instance {
+    top: -130px;
+    width: 310px;
+    left: 10px;
+  }
+
+  .forgotAccount-instance {
+    text-decoration: none;
+    color: black;
+    left: 135px !important;
+    position: absolute !important;
+    top: 210px !important;
+  }
+}
+
+/* 1920px and beyond */
+@media screen and (min-width: 1920px){
+  .LogIn .nimbus-mail {
+    left: 20px;
+    top: 86px;
+  }
+
+  .LogIn .octicon-lock {
+    left: 20px;
+    position: absolute;
+    top: 155px;
+  }
+
+  .LogIn-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    position: relative;
+    left: 0;
+    width: 400px;
+    height: 330px;
+    align-items: center;
+    padding: 30px;
+    margin: 20px;
+    border: black 3px solid;
+    border-radius: 18px;
+  }
+
+  .auth-form-container-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(60%);
+    position: relative;
+  }
+
+  .login-button2 {
+    top: -80px;
+    border-radius: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #cf2e2e !important;
+  }
+
+  .email-instance {
+    top: -145px;
+    width: 310px;
+    left: 10px;
+  }
+  .password-instance {
+    top: -130px;
+    width: 310px;
+    left: 10px;
+  }
+
+  .forgotAccount-instance {
+    text-decoration: none;
+    color: black;
+    left: 135px !important;
+    position: absolute !important;
+    top: 210px !important;
+  }
+}
+
+

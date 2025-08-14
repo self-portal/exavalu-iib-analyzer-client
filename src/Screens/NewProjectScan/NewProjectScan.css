@@ -1,0 +1,83 @@
+.overlay-select-list-scan {
+  height: 274px;
+  left: 582px;
+  position: absolute;
+  top: 220px;
+  width: 946px;
+}
+
+.project-name-scan {
+  color: #000000;
+  font-family: "Chivo", Helvetica;
+  font-size: 61px;
+  font-weight: 400;
+  letter-spacing: 5.76px;
+  line-height: 108.8px;
+  position: absolute;
+  text-align: center;
+  top: -128px;
+  width: 965px;
+}
+
+.list-card-preview-scan {
+  background-color: #5e323228;
+  border: 3px dashed;
+  padding: 12.0em;
+  top: 18px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.list-card-sub-preview-scan {
+  background-color: #ffffff;
+  border: 2px dashed;
+  /* padding: 2em; */
+  top: 47px;
+  left: 30px;
+  right: 30px;
+  position: absolute;
+  border-radius: 10px;
+  height: 330px;
+}
+
+.scan-all-button {
+  color: white;
+  text-transform: uppercase;
+  height: 60px;
+  width: 250px;
+  background-color: #c0392b;
+  position: absolute;
+  margin: auto;
+  top: 460px;
+  bottom: 0;
+  left: 15px;
+  right: 0;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.scan-all-button:active {
+  transform: scale(0.9);
+}
+
+.right-icon {
+  text-align:end;
+  width: 40%;
+}
+
+.project-scan-icon-position{
+  position: absolute;
+}
+
+.project-scan-container{
+  top:0;
+}
+
+.Scan-all-button-new-job{
+  position: absolute;
+  top:-1030px;
+  left: 844px;
+}

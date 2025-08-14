@@ -1,0 +1,223 @@
+.Register {
+  background-color: white;
+}
+
+.Register .overlap-wrapper {
+  border: 1px none;
+  height: 700px;
+  transition: all 0.2s ease;
+  width: 1800px;
+}
+
+.auth-form-container,
+.register-form {
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  top: 180px;
+  position: relative;
+}
+
+.submit-button-register {
+  text-decoration: none !important;
+  background-color: #cf2e2e !important;
+  height: 54px;
+  width: 350px;
+  left: 15px !important;
+  position: absolute !important;
+  top: 309px !important;
+  color: #ffffff;
+  font-size: 26px;
+  text-align: center;
+  padding: 7px;
+  border-radius: 18px;
+  border: none !important;
+}
+.Register .overlap {
+  left: 10px;
+  position: relative;
+  top: 150px;
+}
+
+.Register .exavalulogo-big {
+  height: 90px;
+  left: 47px;
+  object-fit: cover;
+  position: absolute;
+  top: 53px;
+  width: 273px;
+}
+
+.Register .p {
+  color: #000000;
+  font-family: "Chakra Petch", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 4px;
+  letter-spacing: 1.44px;
+  line-height: 27.2px;
+  position: absolute;
+  text-align: center;
+  top: 976px;
+  width: 413px;
+}
+
+.register-form {
+  width: 765px;
+  top: -65px;
+  left: 49px;
+  height: 560px;
+  align-items: center;
+  padding: 30px;
+  margin: 20px;
+  border: black 3px solid;
+  border-radius: 18px;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 10px;
+  border: color-mix(in hsl shorter hue, color percentage, color percentage);
+  border-radius: 10px;
+}
+
+button:hover {
+  font-size: large;
+}
+.Register-header {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+}
+
+.link-btn {
+  background: none;
+  color: #000000;
+  text-decoration: none;
+  position: relative;
+  top: -60px;
+  padding: auto;
+  margin-left: 115px;
+}
+
+.login-btn {
+  background: none;
+  color: #000000;
+  text-decoration: none;
+  position: relative;
+  padding: 5px;
+  top: 0px;
+}
+
+.login-btn:hover {
+  color: #cf2e2e;
+}
+
+.full-name-value {
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 1px solid black;
+  top: -15px;
+  position: relative;
+  left: 18px;
+  /* width: 130px; */
+}
+.email-register-value {
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 1px solid black;
+  top: 5px;
+  position: relative;
+  left: 17px;
+  width: 290px;
+}
+
+.password-register-value {
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 1px solid black;
+  top: 25px;
+  position: relative;
+  left: 17px;
+  width: 290px;
+}
+
+.heading-register {
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  top: -20px;
+  font-weight: 1000;
+}
+
+.last-name-value {
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 1px solid black;
+  top: -15px;
+  position: relative;
+  left: 40px;
+  width: 130px;
+}
+
+/* .alreadyAccount{
+  text-align: center;
+  margin-bottom: 100px;
+} */
+
+/* till 1280px */
+@media screen and (max-width: 1280px) {
+  .alreadyAccount {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+}
+
+/* from 1280px width to 1400px and then things starts to change!! */
+@media screen and (min-width: 1280px) and (max-width: 1400px) {
+  .alreadyAccount {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+}
+
+/* from 1400px width to 1600px and then things starts to change!! */
+@media screen and (min-width: 1400px) and (max-width: 1600px) {
+  .alreadyAccount {
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: -30px;
+  }
+}
+
+/* from 1600px width to 1800px and then things starts to change!! */
+@media screen and (min-width: 1600px) and (max-width: 1800px) {
+  .alreadyAccount {
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: -40px;
+  }
+}
+
+/* from 1600px width to 1920px and then things starts to change!! */
+@media screen and (min-width: 1800px) and (max-width: 1920px) {
+  .alreadyAccount {
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: -55px;
+  }
+}
+
+/* 1920px and beyond */
+@media screen and (min-width: 1920px) {
+  .alreadyAccount {
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: -55px;
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "userName": "admin",
+      "emailId": "admin@exavalu.com",
+      "firstName": "Admin",
+      "middleName": "",
+      "lastName": "Admin",
+      "mobileNo": "8883928258",
+      "jobTitle": "Admin",
+      "region": "India",
+      "company": "",
+      "createdTimeStamp": "2023-08-17 11:31:59.0",
+      "updatedTimeStamp": "2023-08-17 15:03:38.0",
+      "activeStatus": "true",
+      "roleId": "1"
+    },
+    {
+      "id": 2,
+      "userName": "Soren.Lax",
+      "emailId": "laxman.soren@exavalu.com",
+      "firstName": "Laxman",
+      "middleName": "Kumar",
+      "lastName": "Soren",
+      "mobileNo": "9876543210",
+      "jobTitle": "Developer",
+      "region": "Asia Pacific",
+      "company": "Exavalu",
+      "createdTimeStamp": "2023-09-02 15:28:11.0",
+      "updatedTimeStamp": "2023-09-02 15:28:11.0",
+      "activeStatus": "true",
+      "roleId": "2"
+    }
+  ]
+}

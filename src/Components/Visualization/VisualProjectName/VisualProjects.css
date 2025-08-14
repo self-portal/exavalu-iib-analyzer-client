@@ -1,0 +1,98 @@
+/* Global Styles */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* Navbar and Sidebar */
+#visual-project .MuiBox-root {
+  padding: 0 2rem;
+}
+
+#proj-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #1e88e5;
+}
+
+#box-size {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+/* Cards */
+#card-box-scan-1 {
+  margin: 1rem 0;
+  border: 1px solid #e0e0e0;
+  transition: transform 0.2s, box-shadow 0.2s;
+  background: linear-gradient(158deg, #252525 0%, #1e1e1e 100%);
+  color: white;
+  border-radius: 10px;
+}
+
+#heading-subjob-upload p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#subjob-name-1 {
+  color: #1e88e5;
+}
+
+#scan-status {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Scanned Status */
+#scanned-button,
+#not-scanned-button {
+  font-weight: bold;
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  /* margin-top: "12px"; */
+  margin-bottom: 5px !important;
+  text-align: center;
+
+  margin-top: -25px;
+}
+
+#scanned-button {
+  background-color: #4caf50;
+  color: white;
+  left: 48.6%;
+  margin-top: -25px;
+}
+
+#not-scanned-button {
+  background-color: #f44336;
+  color: white;
+  padding-right: 0px;
+}
+
+#interpret-button {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Button */
+#interpret-button button {
+  background-color: #1e88e5;
+  color: white;
+  padding: 0.6rem 1.5rem;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+#interpret-button button:hover {
+  background-color: #1565c0;
+  transform: translateY(-3px);
+}

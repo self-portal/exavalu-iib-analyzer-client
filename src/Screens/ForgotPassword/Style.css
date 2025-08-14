@@ -1,0 +1,176 @@
+.ForgotPassword {
+  background-color: white;
+  /* color: white; */
+}
+
+.ForgotPassword .exavalulogo-big {
+  height: 90px;
+  left: 47px;
+  /* mix-blend-mode: hard-light; */
+  object-fit: cover;
+  position: absolute;
+  top: 53px;
+  width: 273px;
+}
+
+.ForgotPassword .overlap-wrapper {
+  /* background-color: #ffffff; */
+  border: 1px none;
+  height: 700px;
+  overflow: hidden;
+  transition: all 0.2s ease;
+  width: 1800px;
+}
+
+.ForgotPassword .overlap {
+  height: 1026px;
+  left: 10px;
+  position: relative;
+  top: 150px;
+}
+
+.ForgotPassword .p {
+  color: #000000;
+  font-family: "Chakra Petch", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 4px;
+  letter-spacing: 1.44px;
+  line-height: 27.2px;
+  position: absolute;
+  text-align: center;
+  top: 976px;
+  width: 413px;
+}
+
+.nimbus-mail {
+  height: 21px;
+  left: 10px;
+  position: absolute;
+  top: 249px;;
+  width: 23px;
+}
+
+.key-mail {
+  height: 21px;
+  left: 155px;
+  position: absolute;
+  top: -58px;
+  width: 23px;
+  color: white;
+}
+
+.dot {
+  position: relative;
+  height: 125px;
+  width: 125px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  left: 96px;
+  top: -231px;
+  background-color: black;
+}
+.auth-form-container,
+.forgotpassword-form {
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  top: 180px;
+  position: relative;
+}
+.forgotpassword-form {
+  width: 400px;
+  top: 21px;
+  left: 10px;
+  height: 400px;
+  align-items: center;
+  padding: 30px;
+  margin: 20px;
+  border: black 3px solid;
+  border-radius: 18px;
+}
+.heading-forgotyourpass {
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  top: 16px;
+  font-weight: 1000;
+}
+
+.sub-heading {
+  font-size: 15px;
+  padding: 10px;
+}
+input {
+  margin: 0.5rem 0;
+  padding: 10px;
+  border: color-mix(in hsl shorter hue, color percentage, color percentage);
+  border-radius: 10px;
+}
+
+.Email-container {
+  background: transparent;
+  width: 290px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  left: 30px;
+}
+
+.Email-value {
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 1px solid black;
+  top: -45px;
+  position: relative;
+  left: 17px;
+  width: 290px;
+}
+
+.submit-button-request {
+  text-transform: none !important;
+  background-color: #cf2e2e !important;
+  height: 54px;
+  width: 350px;
+  left: 15px !important;
+  position: absolute !important;
+  top: 309px !important;
+  color: #ffffff;
+  font-size: 26px;
+  text-align: center;
+  border-radius: 18px;
+  border: none;
+  font-weight: 100;
+}
+
+.ForgotPassword-header {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+}
+
+.link-btn-signin {
+  background: none;
+  color: #000000;
+  text-decoration: none;
+  position: relative;
+  top: 40px;;
+  padding: auto;
+}
+
+.login-btn-signin {
+  background: none;
+  color: #000000;
+  text-decoration: none;
+  position: relative;
+  padding: 5px;
+  top: 0px;
+}
+
+.login-btn-signin:hover {
+  color: #cf2e2e;
+}

@@ -1,0 +1,71 @@
+.Nav-bar {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+@media only screen and (max-width: 620px) { /* Specific to this particular image */
+    img.bg {
+      width: 90vw;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      left: 50%;
+      margin-left: -512px;   /* 50% */
+    }
+  }
+  @media only screen and (max-height: 670px) { /* Specific to this particular image */
+    img.bg {
+    height: 650px;
+    }
+  }
+  .Nav-bar .overlap-wrapper {
+    background-color: #ffffff;
+    border: 1px none;
+    height: 1080px;
+    overflow: hidden;
+    transition: all 0.2s ease;
+    width: 1920px;
+  }
+  .Nav-bar .overlap {
+    height: 1026px;
+    left: 10px;
+    position: relative;
+    top: 27px;
+  }
+  .Nav-bar .exavalulogo-big {
+    height: 90px;
+    left: 47px;
+    /* mix-blend-mode: hard-light; */
+    object-fit: cover;
+    position: absolute;
+    top: 53px;
+    width: 273px;
+  }
+  .Nav-bar .p {
+    color: #000000;
+    font-family: "Chakra Petch", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 4px;
+    letter-spacing: 1.44px;
+    line-height: 27.2px;
+    position: absolute;
+    text-align: center;
+    top: 976px;
+    width: 413px;
+  }
+  .Nav-bar .support-button-instance {
+    height: 37px !important;
+    color: #000000;
+    font-family: "Roboto Flex", Helvetica;
+    font-size: 40px;
+    font-weight: 300;
+    left: 1637px;
+    letter-spacing: 3.36px;
+    line-height:  163.2px;
+    position: absolute;
+    text-align: center;
+    top: 25px;
+    width: 0px;
+  }

@@ -1,0 +1,146 @@
+.search-of-projects {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.overlap-upload-projects {
+  background-color: #ffffff;
+  /* border: 1px none; */
+  height: 1080px;
+  overflow: hidden;
+  transition: all 0.2s ease;
+  width: 1920px;
+}
+
+.form-control {
+  transition: all 0.2s ease !important;
+  width: 1800px !important;
+  height: 50px !important;
+  border-radius: 15px;
+  margin-bottom: 5px;
+}
+
+.file-upload-label {
+  text-align: center;
+  font-size: 0.875rem;
+  background-color: #cf2e2e;
+  display: flex;
+  color: #ffffff;
+  margin: 4px 2px;
+  cursor: pointer;
+  left: 0px !important;
+  top: 671px !important;
+  width: 210px;
+  height: 38px;
+  text-transform: none;
+  box-shadow: 0 4px 9px -4px #cf2e2e;
+}
+
+.table-upload {
+  position: relative;
+  left: -10px;
+}
+
+.Upload-button-uploadproject {
+  padding: 6px;
+  cursor: pointer;
+  left: 500px !important;
+  position: absolute !important;
+  top: 940px !important;
+}
+
+.table-container-upload {
+  position: absolute;
+  top: 48px;
+  margin-top: 60px;
+  left: 611px;
+  width: 750px;
+}
+
+input[type="file"] {
+  z-index: -1;
+  position: absolute;
+  opacity: 0;
+}
+
+input:focus + label {
+  outline: 2px solid;
+}
+
+.heading-upload {
+  text-align: center;
+  position: relative;
+  top: -32px;
+  left: 0px;
+  height: 48px;
+}
+
+.card-instance {
+  position: relative;
+}
+
+.card-box {
+  margin-bottom: 10px;
+  box-shadow: #cf2e2e;
+}
+
+.heading-subjob {
+  border-bottom-style: groove;
+}
+
+.Checkbox-instance {
+  position: absolute;
+  left: 610px;
+  /* top: 10px; */
+}
+
+.Add-button {
+  position: absolute;
+  left: 635px;
+}
+
+.add-b {
+  height: 25px;
+  position: absolute;
+  top: 600px;
+}
+
+.delete-button-instance {
+  /* position: absolute; */
+  left: 630px;
+}
+
+.overlay-custom {
+  z-index: 10000;
+}
+
+.popup-custom {
+  z-index: 11000;
+}
+
+.border-box {
+  width: 860px;
+  height: 500px;
+  /* border: #000000 2px solid; */
+  position: absolute;
+  left: 25%;
+  top: 14%;
+  border-radius: 29px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  place-items: center;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+      rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.addjob-button-wrapper {
+  left: 22% !important;
+  top: 78% !important;
+  font-weight: bold;
+  position: absolute;
+  align-items: center;
+}

@@ -1,0 +1,181 @@
+.container-fluid {
+  height: auto;
+  width: auto;
+}
+
+#scan-job-page {
+  /*Side bar box has 240px*/
+  margin-left: 245px;
+  margin-right: 5px;
+  margin-top: auto;
+  /*margin-bottom: 100px;*/
+  padding-bottom: 10px;
+}
+
+#scan-job {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  background-color: #ffffff;
+  width: 60%;
+  border-radius: 0.4em;
+  overflow: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#job-name-header {
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#job-combo-box {
+  justify-content: center;
+}
+
+#scan-select-job-header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  justify-content: center;
+}
+
+#scan-select-job {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#scan-job-submit {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  justify-content: center;
+}
+/* -------------------------------------------------------------------- */
+.container-fluid-1 {
+  height: auto;
+  width: auto;
+  margin-left: 245px;
+  margin-right: 5px;
+  margin-top: auto;
+  margin-bottom: 100px;
+  padding-bottom: 10px;
+  /*box-shadow: rgba(100, 100, 111, 0.2) 7px 7px 29px 29px;*/
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 0.4em;
+}
+#scanjob-name-header {
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#scanjob-name-select {
+  text-align: center;
+}
+#select-button {
+  color: #ffffff;
+}
+#scanalljob-checkbox {
+  /* left: 75.9%; */
+  padding-left: 75%;
+  padding-right: 20px;
+  position: relative;
+}
+#scanjob-boxposition {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+#scanjob-icon {
+  position: relative;
+  /* left: 8%; */
+  color: Green;
+  /* margin-top: -5%; */
+}
+#scanbutton-position {
+  left: 75%;
+  position: relative;
+}
+
+/* Define custom styles for the Swal modal */
+.custom-swal {
+  padding: 10px 0px !important;
+  border-radius: 10px;
+  margin-left: 240px;
+}
+
+.custom-swal .swal2-icon {
+  margin-top: 5px;
+}
+
+.custom-swal .swal2-title {
+  font-size: 1.5rem;
+  font-family: "Domine", serif;
+}
+
+.custom-swal .swal2-content {
+  font-size: 1rem;
+}
+
+.custom-swal .swal2-styled.swal2-confirm {
+  background-color: #3085d6;
+  padding: 8px 20px;
+  font-size: 1rem;
+}
+
+.custom-swal .swal2-styled.swal2-deny {
+  background-color: #d64330;
+  padding: 8px 8px;
+  font-size: 1rem;
+}
+
+.custom-swal2 {
+  padding: 10px 0px !important;
+  border-radius: 10px;
+}
+
+.custom-swal2 .swal2-icon {
+  margin-top: 5px;
+}
+
+.custom-swal2 .swal2-title {
+  font-size: 1.5rem;
+  font-family: "Domine", serif;
+}
+
+.custom-swal2 .swal2-content {
+  font-size: 1rem;
+}
+
+.custom-swal2 .swal2-styled.swal2-confirm {
+  background-color: #3085d6;
+  padding: 8px 20px;
+  font-size: 1rem;
+}
+
+.custom-swal2 .swal2-styled.swal2-deny {
+  background-color: #d64330;
+  padding: 8px 8px;
+  font-size: 1rem;
+}
+
+/* .swal2-container {
+  z-index: 9999999999999999999;
+} */
+
+.custom-swal-overlay {
+  z-index: 9999999999999999999;
+  /* background-color: red; */
+}
+
+.checkbox-label:hover,
+div:hover .checkbox-label {
+  opacity: 1; /* Show on hover */
+}

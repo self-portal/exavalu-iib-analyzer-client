@@ -1,0 +1,576 @@
+.my-activity-body-color {
+  min-height: 100vh;
+  background: #eceff1;
+  background: linear-gradient(
+    155deg,
+    rgba(224, 224, 224, 0.46) 0%,
+    rgba(255, 255, 255, 0.54) 100%
+  );
+}
+
+.my-activity-iconstyle {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.my-activity-job-title {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+/* till 1280px */
+@media screen and (max-width: 1280px) {
+  .my-activity-gradient-card {
+    min-width: 195px;
+    height: 170px;
+    background: linear-gradient(
+      158deg,
+      rgb(77, 77, 77) 0%,
+      rgb(42, 42, 45) 100%
+    );
+  }
+  .my-activity-recent-job-card {
+    position: relative;
+    max-width: 285px;
+  }
+
+  .my-activity-paddingall {
+    padding: 5px 5px 0px 5px;
+  }
+
+  .my-activity-job-value {
+    padding-left: 12px;
+  }
+
+  .job-heading {
+    font-size: 18px !important;
+  }
+
+  .job-value {
+    font-size: 15px !important;
+  }
+}
+
+/* from 1280px width to 1320px and then things starts to change!! */
+@media screen and (min-width: 1280px) and (max-width: 1320px) {
+  .my-activity-gradient-card {
+    min-width: 195px;
+    height: 170px;
+    background: linear-gradient(
+      158deg,
+      rgb(77, 77, 77) 0%,
+      rgb(42, 42, 45) 100%
+    );
+  }
+  .my-activity-recent-job-card {
+    position: relative;
+    max-width: 285px;
+  }
+
+  .my-activity-paddingall {
+    padding: 5px 5px 0px 5px;
+  }
+
+  .my-activity-job-value {
+    padding-left: 12px;
+  }
+
+  .job-heading {
+    font-size: 18px !important;
+  }
+
+  .job-value {
+    font-size: 15px !important;
+  }
+}
+
+/* from 1320px to 1350px */
+@media screen and (min-width: 1320px) and (max-width: 1350px) {
+  .my-activity-gradient-card {
+    min-width: 195px;
+    height: 170px;
+    background: linear-gradient(
+      158deg,
+      rgb(77, 77, 77) 0%,
+      rgb(42, 42, 45) 100%
+    );
+  }
+  .my-activity-recent-job-card {
+    position: relative;
+    max-width: 300px;
+  }
+
+  .my-activity-paddingall {
+    padding: 5px 5px 0px 5px;
+  }
+
+  .my-activity-job-value {
+    padding-left: 12px;
+  }
+
+  .job-heading {
+    font-size: 18px !important;
+  }
+
+  .job-value {
+    font-size: 15px !important;
+  }
+}
+
+/* from 1350px to 1380px */
+@media screen and (min-width: 1350px) and (max-width: 1380px) {
+  .my-activity-gradient-card {
+    min-width: 210px;
+    height: 170px;
+    background: linear-gradient(
+      158deg,
+      rgb(77, 77, 77) 0%,
+      rgb(42, 42, 45) 100%
+    );
+  }
+  .my-activity-recent-job-card {
+    position: relative;
+    max-width: 300px;
+  }
+
+  .my-activity-paddingall {
+    padding: 5px 5px 0px 5px;
+  }
+
+  .my-activity-job-value {
+    padding-left: 12px;
+  }
+
+  .job-heading {
+    font-size: 18px !important;
+  }
+
+  .job-value {
+    font-size: 15px !important;
+  }
+}
+
+/* from 1380px to 1430px */
+@media screen and (min-width: 1380px) and (max-width: 1430px) {
+  .my-activity-gradient-card {
+    min-width: 210px;
+    height: 170px;
+    background: linear-gradient(
+      158deg,
+      rgb(77, 77, 77) 0%,
+      rgb(42, 42, 45) 100%
+    );
+  }
+  .my-activity-recent-job-card {
+    position: relative;
+    max-width: 300px;
+  }
+
+  .my-activity-paddingall {
+    padding: 5px 5px 0px 5px;
+  }
+
+  .my-activity-job-value {
+    padding-left: 12px;
+  }
+
+  .job-heading {
+    font-size: 18px !important;
+  }
+
+  .job-value {
+    font-size: 15px !important;
+  }
+}
+
+/* from 1430px to 1500px */
+@media screen and (min-width: 1430px) and (max-width: 1500px) {
+  .my-activity-gradient-card {
+    min-width: 223px;
+    height: 170px;
+    background: linear-gradient(
+      158deg,
+      rgb(77, 77, 77) 0%,
+      rgb(42, 42, 45) 100%
+    );
+  }
+  .my-activity-recent-job-card {
+    position: relative;
+    max-width: 300px;
+    left: 15px;
+  }
+
+  .my-activity-paddingall {
+    padding: 5px 5px 0px 5px;
+  }
+
+  .my-activity-job-value {
+    padding-left: 12px;
+  }
+
+  .job-heading {
+    font-size: 18px !important;
+  }
+
+  .job-value {
+    font-size: 15px !important;
+  }
+}
+
+/* from 1500px to 1550px */
+@media screen and (min-width: 1500px) and (max-width: 1550px) {
+  .my-activity-gradient-card {
+    min-width: 255px;
+    height: 170px;
+    background: linear-gradient(
+      158deg,
+      rgb(77, 77, 77) 0%,
+      rgb(42, 42, 45) 100%
+    );
+  }
+  .my-activity-recent-job-card {
+    position: relative;
+    max-width: 300px;
+    left: 35px;
+  }
+
+  .my-activity-paddingall {
+    padding: 5px 5px 0px 5px;
+  }
+
+  .my-activity-job-value {
+    padding-left: 12px;
+  }
+
+  .job-heading {
+    font-size: 18px !important;
+  }
+
+  .job-value {
+    font-size: 15px !important;
+  }
+}
+
+/* from 1550px to 1600px */
+@media screen and (min-width: 1550px) and (max-width: 1600px) {
+  .my-activity-gradient-card {
+    min-width: 275px;
+    height: 170px;
+    background: linear-gradient(
+      158deg,
+      rgb(77, 77, 77) 0%,
+      rgb(42, 42, 45) 100%
+    );
+  }
+  .my-activity-recent-job-card {
+    position: relative;
+    max-width: 300px;
+    left: 60px;
+  }
+
+  .my-activity-paddingall {
+    padding: 5px 5px 0px 5px;
+  }
+
+  .my-activity-job-value {
+    padding-left: 12px;
+  }
+
+  .job-heading {
+    font-size: 20px !important;
+  }
+
+  .job-value {
+    font-size: 18px !important;
+  }
+}
+
+/* from 1600px to 1680px */
+@media screen and (min-width: 1600px) and (max-width: 1680px) {
+  .my-activity-gradient-card {
+    min-width: 290px;
+    height: 170px;
+    background: linear-gradient(
+      158deg,
+      rgb(77, 77, 77) 0%,
+      rgb(42, 42, 45) 100%
+    );
+  }
+  .my-activity-recent-job-card {
+    position: relative;
+    max-width: 300px;
+    left: 85px;
+  }
+
+  .my-activity-paddingall {
+    padding: 5px 5px 0px 5px;
+  }
+
+  .my-activity-job-value {
+    padding-left: 12px;
+  }
+
+  .job-heading {
+    font-size: 20px !important;
+  }
+
+  .job-value {
+    font-size: 18px !important;
+  }
+}
+
+/* from 1680px to 1750px */
+@media screen and (min-width: 1680px) and (max-width: 1750px) {
+  .my-activity-gradient-card {
+    min-width: 315px;
+    height: 170px;
+    background: linear-gradient(
+      158deg,
+      rgb(77, 77, 77) 0%,
+      rgb(42, 42, 45) 100%
+    );
+  }
+  .my-activity-recent-job-card {
+    position: relative;
+    max-width: 300px;
+    left: 105px;
+  }
+
+  .my-activity-paddingall {
+    padding: 5px 5px 0px 5px;
+  }
+
+  .my-activity-job-value {
+    padding-left: 12px;
+  }
+
+  .job-heading {
+    font-size: 22px !important;
+  }
+
+  .job-value {
+    font-size: 20px !important;
+  }
+}
+
+/* from 1750px to 1820px */
+@media screen and (min-width: 1750px) and (max-width: 1820px) {
+  .my-activity-gradient-card {
+    min-width: 335px;
+    height: 170px;
+    background: linear-gradient(
+      158deg,
+      rgb(77, 77, 77) 0%,
+      rgb(42, 42, 45) 100%
+    );
+  }
+  .my-activity-recent-job-card {
+    position: relative;
+    max-width: 300px;
+    left: 120px;
+  }
+
+  .my-activity-paddingall {
+    padding: 5px 5px 0px 5px;
+  }
+
+  .my-activity-job-value {
+    padding-left: 12px;
+  }
+
+  .job-heading {
+    font-size: 22px !important;
+  }
+
+  .job-value {
+    font-size: 20px !important;
+  }
+}
+
+/* from 1820px to 1920px */
+@media screen and (min-width: 1820px) and (max-width: 1920px) {
+  .my-activity-gradient-card {
+    min-width: 360px;
+    height: 170px;
+    background: linear-gradient(
+      158deg,
+      rgb(77, 77, 77) 0%,
+      rgb(42, 42, 45) 100%
+    );
+  }
+  .my-activity-recent-job-card {
+    position: relative;
+    max-width: 300px;
+    left: 150px;
+  }
+
+  .my-activity-paddingall {
+    padding: 5px 5px 0px 5px;
+  }
+
+  .my-activity-job-value {
+    padding-left: 12px;
+  }
+
+  .job-heading {
+    font-size: 22px !important;
+  }
+
+  .job-value {
+    font-size: 20px !important;
+  }
+}
+
+/* 1920px and beyond */
+@media screen and (min-width: 1920px) {
+  .my-activity-gradient-card {
+    min-width: 360px;
+    height: 170px;
+    background: linear-gradient(
+      158deg,
+      rgb(77, 77, 77) 0%,
+      rgb(42, 42, 45) 100%
+    );
+  }
+  .my-activity-recent-job-card {
+    position: relative;
+    max-width: 300px;
+    left: 150px;
+  }
+
+  .my-activity-paddingall {
+    padding: 5px 5px 0px 5px;
+  }
+
+  .my-activity-job-value {
+    padding-left: 12px;
+  }
+
+  .job-heading {
+    font-size: 22px !important;
+  }
+
+  .job-value {
+    font-size: 18px !important;
+  }
+}
+
+/* NEW CSS  */
+
+.my-activity-body-color {
+  min-height: 100vh;
+  background: #eceff1;
+  background: linear-gradient(
+    155deg,
+    rgba(224, 224, 224, 0.46) 0%,
+    rgba(255, 255, 255, 0.54) 100%
+  );
+}
+
+.my-activity-card {
+  margin-top: 35px;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+  background: linear-gradient(
+    158deg,
+    rgb(143, 143, 143) 0%,
+    rgb(201, 201, 201) 50%,
+    rgb(143, 143, 143) 100%
+  ) !important;
+  color: black !important;
+  height: 200px !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease,
+    background 0.4s ease-in-out;
+}
+
+/* .my-activity-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) !important;
+  background: rgb(252, 137, 137) !important;
+} */
+
+.my-activity-card .MuiTypography-root {
+  color: rgb(0, 0, 0);
+  /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000; */
+}
+
+.my-activity-recent-jobs-container {
+  max-height: 86px;
+  color: #ffffff;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #ffffff #8b8b8b;
+  padding-bottom: 5px;
+}
+
+.my-activity-recent-jobs-container .listItem {
+  /* color: #8b4513; */
+  color: #000000;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+  /* margin-top: 24px; */
+  font-weight: bold;
+  text-align: start;
+  padding-bottom: 2px;
+  transition: color 0.3s ease, transform 0.3s ease;
+  position: relative;
+  display: inline-block;
+  list-style-type: disc;
+  margin-left: 25px;
+  /* width: 160px; */
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+.my-activity-recent-jobs-container .listItem::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  background-color: #030303; /* Brown underline */
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+.my-activity-recent-jobs-container .listItem:hover::before {
+  width: 100%;
+  left: 0;
+}
+
+.my-activity-recent-jobs-container .listItem:hover {
+  color: #000000; /* Darker brown color on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* .my-activity-recent-jobs-container a:hover {
+  color: rgb(231, 146, 146);
+} */
+
+.my-activity-recent-jobs-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.my-activity-recent-jobs-container::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+.my-activity-recent-jobs-container::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.my-activity-recent-jobs-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+main .css-zxdg2z {
+  padding: 5px;
+}
+
+main .css-zxdg2z div {
+  padding: 0;
+}

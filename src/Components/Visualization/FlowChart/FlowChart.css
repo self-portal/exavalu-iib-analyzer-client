@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
+/* General Container Styling */
+.container-fluid-2 {
+  padding: 20px;
+  position: relative;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+/* Header Section Styling */
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 96%;
+  /* width: 100%; */
+  top: 50px;
+  left: 0;
+  margin: 0 20px;
+  /* z-index: 25000; */
+  padding: 10px 20px;
+  background-color: #fff;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border-radius: 8px;
+}
+
+.flow-chart-title {
+  color: #008b8b;
+  font-weight: bold;
+  margin: 0;
+}
+
+.application-name {
+  color: #008b8b;
+  text-align: center;
+  margin: 0;
+  /* font-family: "Source Code Pro", system-ui; */
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal; /* Professional font */
+  font-weight: 600;
+  font-size: 1.5rem; /* Adjusted size for better readability */
+  letter-spacing: 0.05em; /* Slight spacing for elegance */
+}
+
+.close-button {
+  background-color: #ff5f5f;
+  color: white;
+  font-weight: bold !important;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 4px;
+}
+
+.close-button:hover {
+  background-color: #ff5f5f; /* Keep the original background color */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; /* Keep the original shadow */
+  transform: none !important; /* Remove any scaling or transform effects */
+}
+
+#back-button {
+  top: 0%;
+}
+
+/* Flow Chart Container Styling */
+.flow-chart-container {
+  flex-grow: 1; /* Ensures the container grows to fill available space */
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border-radius: 0.6em;
+  background-color: white;
+  margin: 100px 0px 50px;
+  height: calc(
+    100vh - 180px
+  ); /* Adjusts height to account for margins and header */
+  position: relative;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Info Section Styling */
+.info-section {
+  background-color: #f0f0f0;
+  padding: 0px 15px;
+  padding-top: 15px;
+  padding-bottom: -15px;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-bottom: -10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
+}
+
+.info-section p {
+  margin-bottom: 2px;
+  font-family: "Domine", serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+/* SVG Styling */
+.svg-design-2 {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding-top: 15px;
+}
+
+#rotate-button {
+  position: absolute;
+  top: 145px;
+  right: 30px;
+  background-color: #489bee;
+  border-radius: 50%;
+  border: 1px solid blue;
+  cursor: pointer;
+  color: #fffefe;
+  font-weight: bolder;
+  z-index: 10;
+  padding: 5px;
+}
+
+#rotate-button:hover {
+  background-color: #357abd;
+}
